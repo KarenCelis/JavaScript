@@ -4,15 +4,13 @@
  * and open the template in the editor.
  */
 
-document.write("Programa para declaracion de variables<br>");
 
-var x = 5;
-var y = 4;
-var z = x+y;
+function miFuncion2(nombre){
+    alert("hola"+nombre);
+    
+}
 
-document.write("valor de x: "+x+"valor de y: "+y+"valor de z: "+z+"<br>");
-
-var a = -5, b=-8, c=a+b;
-
-
-document.write("valor de a: "+a+"valor de b: "+b+"valor de c: "+c);
+function mostrarNombre(nombre){
+    var nombre1 = nombre.value;
+    alert("Hola "+nombre1);    
+}
