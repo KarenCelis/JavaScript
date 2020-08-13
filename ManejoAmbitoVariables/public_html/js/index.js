@@ -10,4 +10,19 @@ function mostrarNombre(parametro) {
     nombre = parametro.value;
     var saludo = "Hola " + nombre;
     document.getElementById("resultado").innerHTML = saludo;
+    
+    
 }
+
+function saludarLocal(parametro){
+        
+        var nombre = parametro;
+        
+        alert("hello"+nombre+"(local)");
+        alert("hola"+this.nombre+"(global)");
+    }
+    
+    function saludarGlobal(){
+        
+        alert("Hola"+nombre);
+    }
